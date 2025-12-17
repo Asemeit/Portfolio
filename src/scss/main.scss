@@ -459,3 +459,26 @@ section {
     }
   }
 }
+// Print Styles (for Saving as PDF)
+@media print {
+  #header, #hero, #projects, #contact, #skills, #about, .mobile-nav-toggle, #theme-toggle {
+    display: none !important;
+  }
+  #resume {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .section-title {
+    text-align: center;
+  }
+  body, html {
+    background: #fff !important;
+    color: #000 !important;
+    height: auto;
+  }
+}
+

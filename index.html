@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio (Updated)</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./src/scss/main.scss">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-nav" data-bs-offset="0" tabindex="0">
+
+    <!-- Mobile Nav Toggle -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <!-- Header / Sidebar -->
+    <header id="header">
+        <div class="d-flex flex-column">
+
+            <div class="profile">
+                <!-- Profile Image -->
+                <div class="profile-img-container mb-3 text-center">
+                    <img src="profile.png" alt="Profile Image" class="img-fluid rounded-circle">
+                </div>
+                <h1 class="text-light"><a href="index.html">Precious Asemeit</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+
+            <nav id="navbar" class="nav-menu navbar">
+                <ul>
+                    <li><a href="#home" class="nav-link scrollto active"><i class="bi bi-house"></i>
+                            <span>Home</span></a></li>
+                    <li><a href="#about" class="nav-link scrollto"><i class="bi bi-person"></i> <span>About</span></a>
+                    </li>
+                    <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-code-slash"></i>
+                            <span>Skills</span></a></li>
+                    <li><a href="#projects" class="nav-link scrollto"><i class="bi bi-hdd-stack"></i>
+                            <span>Portfolio</span></a></li>
+                    <li><a href="#contact" class="nav-link scrollto"><i class="bi bi-envelope"></i>
+                            <span>Contact</span></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Dark Mode Toggle (Sidebar Bottom) -->
+        <div class="mt-auto p-3 text-center">
+            <button class="btn btn-sm btn-outline-light rounded-circle" id="theme-toggle">
+                <i class="bi bi-moon-fill"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main">
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section d-flex flex-column justify-content-center align-items-center text-white"
+            style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') center center / cover no-repeat;">
+            <div class="hero-container" data-aos="fade-in">
+                <h1>Precious Asemeit</h1>
+                <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, "></span></p>
+                <div class="mt-4">
+                    <div class="row text-center">
+                        <div class="col-4">
+                            <h3 class="fw-bold text-light mb-0 counter">2+</h3>
+                            <small class="text-white-50">Years</small>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold text-light mb-0 counter">5+</h3>
+                            <small class="text-white-50">Projects</small>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="fw-bold text-light mb-0 counter">5+</h3>
+                            <small class="text-white-50">Clients</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section is-landing-page">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About</h2>
+                    <p>I am an ambitious entry level developer who builds clean scalable and
+                        responsive applications with care.
+                        I learn fast adapt quickly communicate clearly and turn ideas into reliable solutions that
+                        create real impact for users and teams.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <img src="profile.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                        <h3>UI/UX Designer &amp; Web & App Developer.</h3>
+                        <p class="fst-italic">
+                            Creative developer crafting intuitive UI/UX experiences and
+                            building responsive web and mobile applications with performance accessibility and impact
+                            globally.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                                        <span>www.example.com</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456
+                                            7890</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Nairobi,
+                                            Kenya</span></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
+                                        <span>Bachelor</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                                        <span>pasemeit@gmail.com</span>
+                                    </li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
+                                        <span>Available</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>
+                            I am a passionate developer with a strong interest in crafting user-centered digital
+                            products.
+                            I enjoy transforming ideas and designs into functional, responsive, and accessible
+                            applications across web and mobile platforms.
+                            My approach combines clean code, thoughtful design decisions, and continuous learning.
+
+                            Through hands-on projects and practical experience, I have developed skills in UI/UX design,
+                            frontend development, and application logic. I value collaboration, clear communication, and
+                            attention to detail,
+                            and I am always eager to learn new tools and technologies to improve my work and deliver
+                            better user experiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section is-landing-page">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                    <p>Skilled in crafting intuitive interfaces building scalable systems and delivering digital
+                        solutions.</p>
+                </div>
+                <!-- ... existing skills content ... -->
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <h4 class="fw-bold mb-4">Design Skills</h4>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="fw-bold">Web Design</span>
+                                <span class="text-primary fw-bold">95%</span>
+                            </div>
+                            <div class="progress mt-2" style="height: 8px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 95%"
+                                    aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="fw-bold">Mobile Development</span>
+                                <span class="text-primary fw-bold">80%</span>
+                            </div>
+                            <div class="progress mt-2" style="height: 8px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 80%"
+                                    aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <h4 class="fw-bold mb-4">Development Skills</h4>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="fw-bold">HTML/CSS</span>
+                                <span class="text-primary fw-bold">98%</span>
+                            </div>
+                            <div class="progress mt-2" style="height: 8px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 98%"
+                                    aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="fw-bold">Java</span>
+                                <span class="text-primary fw-bold">85%</span>
+                            </div>
+                            <div class="progress mt-2" style="height: 8px;">
+                                <div class="progress-bar bg-primary" role="progressbar" style="width: 85%"
+                                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section is-landing-page">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                    <p>A selection of projects showcasing creativity problem solving technical growth and real world
+                        impact.</p>
+                </div>
+                <!-- ... existing projects content ... -->
+                <div class="row g-4">
+                    <!-- Project 1: Notes App -->
+                    <div class="col-lg-6 col-md-6">
+                        <a href="https://github.com/Asemeit/NotesApp" target="_blank" class="text-decoration-none">
+                            <div class="card border-0 shadow-sm overflow-hidden h-100">
+                                <div
+                                    style="height: 200px; background-color: #2c2f3f; display: flex; align-items: center; justify-content: center;">
+                                    <i class="bi bi-journal-text text-white display-1"></i>
+                                </div>
+                                <div class="card-body p-4">
+                                    <h5 class="fw-bold">Smart Notes App</h5>
+                                    <p class="text-muted small mb-2">Android / Java</p>
+                                    <p class="card-text small text-secondary">A feature-rich note-taking application for
+                                        Android built with Java and Room database persistence.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Project 2: Happiness Index -->
+                    <div class="col-lg-6 col-md-6">
+                        <a href="https://github.com/Alexxongithub/-Predicting-Happiness-Index-from-Digital-and-Lifestyle-Habits-Using-Machine-Learning-"
+                            target="_blank" class="text-decoration-none">
+                            <div class="card border-0 shadow-sm overflow-hidden h-100">
+                                <div
+                                    style="height: 200px; background-color: #2c2f3f; display: flex; align-items: center; justify-content: center;">
+                                    <i class="bi bi-graph-up-arrow text-white display-1"></i>
+                                </div>
+                                <div class="card-body p-4">
+                                    <h5 class="fw-bold">Happiness Predictor</h5>
+                                    <p class="text-muted small mb-2">Machine Learning / Python</p>
+                                    <p class="card-text small text-secondary">Predicting Happiness Index from Digital
+                                        and Lifestyle Habits using advanced ML algorithms.</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section is-landing-page">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                    <p>Interested in working together let’s connect , discuss ideas opportunities and build meaningful solutions.</p>
+                </div>
+                <div class="row">
+                    <!-- ... existing form ... -->
+                    <div class="col-lg-5 d-flex align-items-stretch">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>Nairobi, Kenya</p>
+                            </div>
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>pasemeit@gmail.com</p>
+                            </div>
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+1 5589 55488 55s</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                        <form role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" name="name" class="form-control" id="name" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="name">Your Email</label>
+                                    <input type="email" class="form-control" name="email" id="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Subject</label>
+                                <input type="text" class="form-control" name="subject" id="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Message</label>
+                                <textarea class="form-control" name="message" rows="10" required></textarea>
+                            </div>
+                            <div class="text-center mt-3"><button type="submit" class="btn btn-primary">Send
+                                    Message</button></div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script type="module" src="./src/js/main.js"></script>
+</body>
+
+</html>

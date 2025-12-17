@@ -1,0 +1,23 @@
+// Custom Color Palette (Soft & Modern)
+$primary: #6C63FF; 
+$secondary: #FF6584;
+$success: #38b000;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+
+$body-bg: #ffffff;
+$body-color: #4a4a4a;
+
+// Typography
+$font-family-sans-serif: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+// Bootstrap Variable Overrides
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: false;
+$enable-transitions: true;
+
+$navbar-padding-y: 1rem;
